@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'opensans-regular-webfont';
+    src: url(../fonts/opensans-regular-webfont.ttf);
+}
+$color-principal: #f05f40;
+
+.navbar{
+    padding: 15
+    px;
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.733);
+    align-items: center;
+    flex-wrap: wrap;
+    h1{
+        color: #ffff; 
+        font-family: "opensans-regular-webfont" !important;
+        font-weight: bolder;
+        margin: 20px;
+    }
+    .nav-pills{
+        .nav-item{
+            text-transform: uppercase;
+            a{
+                color: #ffff;
+                font-size: 1.2rem;
+            }
+        }
+        .nav-item:hover{
+            background-color: $color-principal;
+
+        }
+    }
+}
+
+header{
+    img{
+        width: 100vw;
+        position: static;
+    }
+    .jumbotron{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        margin: auto;
+        background: none;
+        color: #ffff;
+        div{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            display: inline-block;
+            text-align: center;
+        }
+        .btn{
+            background-color: $color-principal;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+}
+.first-section{
+    article{
+        padding: 25px;
+        background-color: $color-principal;
+        width: 100vw;
+        text-align: center;
+        font-size: 1.2em;
+        h2{
+            font-size: 2.5em;
+            margin: 25px;
+        }
+        img{
+            margin: auto;
+            width: 200px;
+            margin: 25px;
+        }
+        color: #ffff;
+        .textcontainer{
+            width: 50%;
+            text-align: center;
+            margin: auto;
+        }
+        .btn{
+            margin: 20px;
+        }
+    }
+}
+.second-section{
+    padding-bottom: 50px;
+    article{
+        h2{
+            margin: 75px;
+            text-align: center;
+            color: #000;
+            font-size: 2.5em;
+        }
+        .classcontainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            flex-wrap: wrap;
+            .cartcontainer{
+                width: 350px;
+                i{
+                    text-align: center;
+                    display: block;
+                    font-size: 80px;
+                    color: $color-principal;
+                }
+                .textcontainer{
+                    text-align: center;
+                    margin: auto;
+                    font-size: 1.3em;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
