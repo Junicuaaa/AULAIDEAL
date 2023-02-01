@@ -5,32 +5,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="CSS/bootstrap.css">
-  <link rel="stylesheet" href="CSS/font-awesome.min.css">
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="stylesheet" href="CSS/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="CSS/bootstrap-reboot.css">
+  <script src="./CSS/jquery.min.js"></script>
+  <link rel="stylesheet" href="./CSS/bootstrap-grid.css">
+  <link rel="stylesheet" href="./CSS/bootstrap-reboot.css">
+  <link rel="stylesheet" href="./CSS/bootstrap.css">
+  <link rel="stylesheet" href="./CSS/styles.css">
   <title>Sandbox</title>
 </head>
 
 <body>
-  <nav class="navbar">
-    <h1><b>AULAIDEAL.COM</b></h1>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="#!">nosotros</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">servicios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">portafolio</a>
-      </li>
-      <li class="nav-item">
-        <a href="" class="nav-link">contacto</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h1 class="col"><b>AULAIDEAL.COM</b></h1>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">NOSOTROS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SERVICIOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PORTAFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <header>
     <div class="bg">
@@ -41,7 +45,7 @@
       </div>
     </div>
 
-    
+
   </header>
   <section class="first-section">
     <article>
@@ -50,8 +54,8 @@
       <div class="textcontainer">
         <P>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con supervisión
           de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación,
-          diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseña-
-          das por nosotros y avaladas por nuestros años de experiencia.</P>
+          diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseñadas
+          por nosotros y avaladas por nuestros años de experiencia.</P>
       </div>
       <button class="btn">MÁS INFORMACIÓN</button>
     </article>
@@ -80,7 +84,7 @@
           <i class="fa-regular fa-square-check"></i>
           <div class="textcontainer">
             <b>Diseño Personalizado</b>
-            <p>CUStomiza hasta el último pixel de 
+            <p>CUStomiza hasta el último pixel de
               tu App. Infinitas posibilidades.
             </p>
           </div>
@@ -91,17 +95,32 @@
   <section class="third-section">
     <h2>ÚLTIMOS PROYECTOS</h2>
     <article class="images">
-          <img src="./images/proyecto1.svg" alt="">
-          <img src="./images/proyecto2.svg" alt="">
-          <img src="./images/proyecto3.svg" alt="">
-          <img src="./images/proyecto4.svg" alt="">
-          <img src="./images/proyecto5.svg" alt="">
-          <img src="./images/proyecto6.svg" alt="">
+      <div class="imgcontainer">
+        <img src="./images/proyecto1.svg" alt="">
+      </div>
+      <div class="imgcontainer">
+        <img src="./images/proyecto2.svg" alt="">
+      </div>
+      <div class="imgcontainer">
+        <img src="./images/proyecto3.svg" alt="">
+      </div>
+      <div class="imgcontainer">
+        <img src="./images/proyecto4.svg" alt="">
+      </div>
+      <div class="imgcontainer">
+        <img src="./images/proyecto5.svg" alt="">
+      </div>
+      <div class="imgcontainer">
+        <img src="./images/proyecto6.svg" alt="">
+      </div>
     </article>
   </section>
   <footer>
     <h3>2016 © NETWORK todos los derechos reservados</h3>
   </footer>
+  <script src="./CSS/bootstrap.js"></script>
+  <script src="./CSS/bootstrap.bundle.js"></script>
 </body>
 <script src="https://kit.fontawesome.com/c1ad670a2a.js" crossorigin="anonymous"></script>
+
 </html>
